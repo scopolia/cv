@@ -290,3 +290,244 @@ body{
       }
     
 }
+@media only screen and (max-width:425px){
+
+    .barraMenu{
+        height: 5vh;
+        width: 100vw;
+    }
+    
+    .cv{
+        font-size: 0.6rem;
+    }
+    
+
+    .s1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;  
+    }
+    
+    .col-izq{
+       
+        padding: 0%;
+        border-radius: 10px;    
+    }
+    
+    .cajaFoto{
+        width: 50vw;
+        height: 20vh;
+        
+        
+    }
+    
+    .cajaFoto img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        
+           
+    }
+    
+    .col-der{
+       display: flex;
+      padding: 0;
+        width: 100%;
+        gap: 0;
+    }
+    
+    .col-der p{
+        margin: 0;
+        padding: 1px;
+        font-size: 0.5rem;
+       
+    }
+    
+    .col-der p:hover{
+        display: none;  
+    }
+    
+    .datos-izq{
+        width: 50%;
+        
+        font-size: 0.5rem;
+        font-weight: bold;   
+    }
+    
+    .datos-der{
+        
+        width: 50%;
+        font-size: 0.5rem;
+       
+    }
+    
+    .presentacion{
+        padding: 0;  
+        width: 100vw;
+    }
+    
+    .presentacion p{
+        font-size: 0.5rem;
+    }
+    
+    .s2{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .formacion{
+        display: flex;
+        flex-direction: column;
+        border-radius: 2px;
+        
+    }
+    
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2px;
+        margin-left: 0px;
+         
+    }
+    
+    .titulo:hover{
+       display: none;     
+    }
+    
+    .titulo p{
+        font-size: 0.5rem;
+        margin: 0;
+        
+          
+    }
+    
+    .titulo p:hover{
+        display: none;
+        
+    }
+    
+    .cursos{
+        font-size: 0.5rem;
+        padding: 0;
+        
+    }
+    
+    .exp{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 1px;
+    }
+    
+    .cajaBarras{
+        height: 100%;
+    }
+    
+    .barras{
+        display: flex;
+        flex-direction: column;
+        margin: 2px;  
+    }
+    
+    .barras p{
+        margin: 0;
+        padding: 1px;
+        
+    }
+    .barras div{
+        padding: 1px;
+        height: 10px;
+    }
+    
+    
+    /*footer*/
+    
+    .pie{
+       
+        background-color: #0a141d;
+        
+        padding: 2px;
+      }
+      .pie .grupo-1{
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+        
+      }
+      .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .pie .grupo-1 .box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+     .box1{
+      display: flex;
+      align-items: center;
+     }
+    
+      .pie .grupo-1 .box1 img{
+        width: 50px;
+        border-radius: 10px;
+        position: relative;
+        left: 10px;  
+    }
+      
+      .pie .grupo-1 .box h2{
+      color: white;
+      margin-bottom: 5px;
+      font-size: 10px;
+     
+    }
+      
+      .pie .grupo-1 .box p{
+        margin-bottom: 0;
+    }
+    
+      .pie .grupo-1 .redes-sociales a{
+        display: inline-block;
+        text-decoration: none;
+        border: white solid 1px;
+        border-radius: 10px;
+        font-size: 0.5rem;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        color: white;
+        margin-right: 0;
+        background-color: #0d2033;
+        text-align: center;
+        
+    }
+    
+      .pie .grupo-1 .redes-sociales a:hover{
+        display: none;
+    }
+    
+      .pie .grupo-2{
+        background-color: #0a1a2a;
+        padding: 5px 2px;
+        text-align: center;
+        
+     }
+    
+      .pie .grupo-2 small{
+        font-size: 10px;
+    }
+
+   
+    
+}
