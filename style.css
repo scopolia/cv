@@ -480,10 +480,7 @@ body{
      }
     
       .pie .grupo-1 .box1 img{
-        width: 50px;
-        border-radius: 10px;
-        position: relative;
-        left: 10px;  
+        display:none; 
     }
       
       .pie .grupo-1 .box h2{
@@ -503,9 +500,9 @@ body{
         border: white solid 1px;
         border-radius: 10px;
         font-size: 0.5rem;
-        width: 20px;
-        height: 20px;
-        line-height: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
         color: white;
         margin-right: 0;
         background-color: #0d2033;
