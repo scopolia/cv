@@ -1,0 +1,292 @@
+*{
+    margin: 0; 
+}
+
+body{
+    background-color: #e3e2e28f;
+}
+
+
+.barraMenu{
+    height: 15vh;
+    background-color: #0a141d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv{
+    color: white;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 3rem;
+}
+
+
+.s1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;  
+}
+
+.col-izq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 10px;    
+}
+
+.cajaFoto{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cajaFoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: #0000008f 10px 10px 30px;    
+}
+
+.col-der{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    border-radius: 10px;
+    border: black solid 2px;
+    margin-bottom: 5px;
+    background-color: rgba(84, 177, 211, 0.136);
+    width: 90%;
+}
+
+.col-der p{
+    margin: 0;
+    padding: 10px;
+    transition: all 300ms ease;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.col-der p:hover{
+    font-size: 1.2rem;
+    text-shadow: rgb(125, 124, 124) 3px 3px 5px;
+    color: black;   
+}
+
+.datos-izq{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;   
+}
+
+.datos-der{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.presentacion{
+    padding: 10px;  
+}
+
+.presentacion p{
+    margin: 0;
+    font-weight: bold;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.s2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 3px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+    transition: all ease 300ms;   
+}
+
+.titulo:hover{
+    background-color: rgba(231, 228, 228, 0.58); 
+    box-shadow: #0000008f 20px 20px 30px;       
+}
+
+.titulo p{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'RocknRoll One', sans-serif;  
+      
+}
+
+.titulo p:hover{
+    font-size: 1.5rem;
+    
+}
+
+.cursos{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Moonrocks', cursive;
+    
+}
+
+.exp{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 3px;
+}
+
+.cajaBarras{
+    height: 100%;
+}
+
+.barras{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;  
+}
+
+.barras p{
+    margin: 0;
+    padding: 2px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.barras div{
+    padding: 1px;
+    height: 30px;
+}
+
+
+/*footer*/
+
+.pie{
+   
+    background-color: #0a141d;
+    
+    padding: 10px;
+  }
+  .pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .pie .grupo-1 .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .box1{
+  display: flex;
+  align-items: center;
+ }
+
+  .pie .grupo-1 .box1 img{
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+    left: 50px;  
+}
+  
+  .pie .grupo-1 .box h2{
+  color: white;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+  
+  .pie .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+  .pie .grupo-1 .redes-sociales a{
+    display: inline-block;
+    text-decoration: none;
+    border: white solid 1px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 200ms ease;
+}
+
+  .pie .grupo-1 .redes-sociales a:hover{
+    border: white solid 2px; 
+}
+
+  .pie .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+ }
+
+  .pie .grupo-2 small{
+    font-size: 15px;
+}
+
+  @media only screen and (max-width:688px){
+   .col-der p{
+    font-size: 0.6rem;
+   }
+   .barras div{
+    height: 15px;
+    }
+    .pie .grupo-1 .box1 img{
+        width: 100px;
+       
+      }
+    
+}
